@@ -1,4 +1,4 @@
-const API_URL = 'https://carambar-test-back-2.onrender.com/';
+const API_URL = 'https://carambar-test-back-4.onrender.com';
 
 document.getElementById('button').addEventListener('click', async () => {
     const res = await fetch(API_URL);
