@@ -7,26 +7,27 @@
     <title>Carambar website</title>
 </head>
 <body>
-    <div id="interactive">
+    <div id="allJokes">
         <div id="interactive">
-            <h1>Carambar Joke</h1>
-            <button id="button">Show me a Joke</button>
+            <div id="interactive">
+                <h1>Carambar Joke</h1>
+                <button id="button">Show me a Joke</button>
+            </div>
+            <div id="joke">
+                <p id="question"></p>
+                <p id="answer"></p>
+            </div>
         </div>
-        <div id="joke">
-            <p id="question"></p>
-            <p id="answer"></p>
+
+        <div id="interactive">
+            <h2>Add a question</h2>
+            <input type="text" id="new-question" placeholder="Question">
+            <input type="text" id="new-answer" placeholder="Answer">
+
+            <button id="add-btn">Add a joke</button>
+            <p id="message"></p>
         </div>
     </div>
-
-    <div id="interactive">
-        <h2>Add a question</h2>
-        <input type="text" id="new-question" placeholder="Question">
-        <input type="text" id="new-answer" placeholder="Answer">
-
-        <button id="add-btn">Add a joke</button>
-        <p id="message"></p>
-    </div>
-
     <script src="script.js"></script>
 </body>
 </html>
